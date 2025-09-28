@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Haapolahti",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Harjukankaan monttu",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Haukilahti",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Hossalaislammet",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Iso-Ruuhijärvi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Iso-Söimi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Jormuanlahti",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Kivijoki",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Koivusaaren matalikko",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Kolmisoppi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Korpipuro",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Kortejärvi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Kuikansalmi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Kuopionlahti",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Lahnalammet",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Lehmilampi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Linlonlahti",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Lokkiluoto",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Meri",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Metsälampi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Muddusjärvi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Mustalampi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Mäntylahti",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Niemisjärvet",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Palusjärvi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Peräjärvi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Pieni Särkinen",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Pitkälampi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Pohjalampi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Rautupuro",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Räväjärvi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Saarijärvi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Savilahti",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Siika-Valkeinen",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Siikakoski",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Surrinlampi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Särkijärvi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Taivallampi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Telkänlampi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Ullavanjärvi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Venetjoen tekojärvi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Viitalampi",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Vuolasniva",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  },
+  {
+    "name": "Vuontele",
+    "supportedGamemodes": [
+      "normal"
+    ],
+    "isNight": false
+  }
+]

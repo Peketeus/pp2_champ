@@ -1,0 +1,1 @@
+// Tournament, what contains competitions and it's participants
