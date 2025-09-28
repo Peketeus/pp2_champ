@@ -1,0 +1,1 @@
+// Single copetition for the tournament
