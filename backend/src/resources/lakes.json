@@ -4,7 +4,7 @@
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Harjukankaan monttu",
@@ -18,7 +18,7 @@
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Hossalaislammet",
@@ -46,7 +46,7 @@
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Kivijoki",
@@ -60,7 +60,7 @@
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Kolmisoppi",
@@ -88,14 +88,14 @@
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Kuopionlahti",
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Lahnalammet",
@@ -116,14 +116,14 @@
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Lokkiluoto",
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Meri",
@@ -179,7 +179,7 @@
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Pieni Särkinen",
@@ -221,21 +221,21 @@
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Savilahti",
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Siika-Valkeinen",
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Siikakoski",
@@ -277,14 +277,14 @@
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Venetjoen tekojärvi",
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   },
   {
     "name": "Viitalampi",
@@ -305,6 +305,6 @@
     "supportedGamemodes": [
       "normal"
     ],
-    "isNight": false
+    "isNight": true
   }
 ]
