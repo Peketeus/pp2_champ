@@ -17,11 +17,18 @@ const TournamentSchema = new Schema<ITournament>(
   {
     ownerId: { type: Schema.Types.ObjectId, ref: "User", required: true },
     name: { type: String, required: true },
-    status: { type: String, enum: ["CREATED", "ONGOING", "FINISHED"], default: "CREATED" },
+    status: {
+      type: String,
+      enum: ["CREATED", "ONGOING", "FINISHED"],
+      default: "CREATED",
+    },
     competitions: { type: [CompetitionSchema], default: [] },
   },
   { timestamps: true }
 );
 
-export const TournamentModel = model<ITournament>("Tournament", TournamentSchema);
+export const TournamentModel = model<ITournament>(
+  "Tournament",
+  TournamentSchema
+);
 export default TournamentModel;

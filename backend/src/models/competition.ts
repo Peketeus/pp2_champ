@@ -16,13 +16,29 @@ export interface Competition {
   participants: Participant[];
 }
 
-export const CompetitionSchema = new Schema<Competition>(
-  {
-    lake: { type: String, required: true },
-    timeOfDay: { type: String, required: true },
-    season: { type: String, required: true },
-    durationMinutes: { type: Number, required: true },
-    type: { type: String, required: true },
-    participants: { type: [ParticipantSchema], default: [] }
-  }
-);
+export const CompetitionSchema = new Schema<Competition>({
+  lake: {
+    type: String,
+    required: true,
+  },
+  timeOfDay: {
+    type: String,
+    required: true,
+  },
+  season: {
+    type: String,
+    required: true,
+  },
+  durationMinutes: {
+    type: Number,
+    required: true,
+  },
+  type: {
+    type: String,
+    required: true,
+  },
+  participants: {
+    type: [ParticipantSchema],
+    default: [],
+  },
+});
