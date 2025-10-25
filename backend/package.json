@@ -2,18 +2,18 @@
   "name": "pp2_champ",
   "version": "0.0.1",
   "description": "Creates randomly generated ProPilkki 2 tournaments",
-  "type": "module",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.ts",
+    "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Peketeus, heikkikoodaa",
   "license": "no license yet",
   "devDependencies": {
-    "@types/node": "^24.5.2",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^24.9.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
