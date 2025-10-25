@@ -78,7 +78,12 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
-    supportedNightModes: [],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
+    ],
     isNight: true,
   },
   {
@@ -99,6 +104,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -115,6 +121,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -131,6 +138,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -153,6 +161,12 @@ const lakes = [
       GameMode.VIISI_SUURINTA_KALAA,
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
+    ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
     ],
     isNight: true,
   },
@@ -179,6 +193,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -202,6 +217,12 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
+    ],
     isNight: true,
   },
   {
@@ -220,6 +241,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -233,6 +255,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -257,6 +280,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -278,6 +302,12 @@ const lakes = [
       GameMode.VIISI_SUURINTA_KALAA,
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
+    ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
     ],
     isNight: true,
   },
@@ -301,6 +331,12 @@ const lakes = [
       GameMode.VIISI_SUURINTA_KALAA,
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
+    ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
     ],
     isNight: true,
   },
@@ -329,6 +365,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -351,6 +388,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -373,6 +411,12 @@ const lakes = [
       GameMode.VIISI_SUURINTA_KALAA,
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
+    ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
     ],
     isNight: true,
   },
@@ -398,6 +442,12 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
+    ],
     isNight: true,
   },
   {
@@ -418,6 +468,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -439,6 +490,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -457,6 +509,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -477,6 +530,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -502,6 +556,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -520,6 +575,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -547,6 +603,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -572,6 +629,12 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
+    ],
     isNight: true,
   },
   {
@@ -595,6 +658,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -616,6 +680,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -633,6 +698,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -648,6 +714,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -672,6 +739,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -696,6 +764,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -718,6 +787,12 @@ const lakes = [
       GameMode.VIISI_SUURINTA_KALAA,
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
+    ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
     ],
     isNight: true,
   },
@@ -746,6 +821,12 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
+    ],
     isNight: true,
   },
   {
@@ -771,6 +852,12 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
+    ],
     isNight: true,
   },
   {
@@ -790,6 +877,12 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
+    ],
     isNight: true,
   },
   {
@@ -805,6 +898,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -826,6 +920,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -848,6 +943,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -871,6 +967,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -886,6 +983,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -910,6 +1008,12 @@ const lakes = [
       GameMode.VIISI_SUURINTA_KALAA,
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
+    ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
     ],
     isNight: true,
   },
@@ -936,27 +1040,34 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
+    ],
     isNight: true,
   },
   {
     name: "Viitalampi",
     supportedGamemodes: [
-       GameMode.NORMAALI,
-       GameMode.KAPPALEMAARA,
-       GameMode.KAIKKI_LAJIT,
-       GameMode.KAIKKI_LAJIT_KAPPALEMAARA,
-       GameMode.SUURIN_KALA,
-       GameMode.VAIN_AHVEN,
-       GameMode.VAIN_AHVEN_KAPPALEMAARA,
-       GameMode.VAIN_HAUKI,
-       GameMode.SUURIN_HAUKI,
-       GameMode.VAIN_SARKIKALAT,
-       GameMode.VAIN_SARKIKALAT_KAPPALEMAARA,
-       GameMode.KOLME_SUURINTA_KALAA,
-       GameMode.VIISI_SUURINTA_KALAA,
-       GameMode.RUUTUPILKKI,
-       GameMode.RUUTUPILKKI_KAPPALEMAARA,
+      GameMode.NORMAALI,
+      GameMode.KAPPALEMAARA,
+      GameMode.KAIKKI_LAJIT,
+      GameMode.KAIKKI_LAJIT_KAPPALEMAARA,
+      GameMode.SUURIN_KALA,
+      GameMode.VAIN_AHVEN,
+      GameMode.VAIN_AHVEN_KAPPALEMAARA,
+      GameMode.VAIN_HAUKI,
+      GameMode.SUURIN_HAUKI,
+      GameMode.VAIN_SARKIKALAT,
+      GameMode.VAIN_SARKIKALAT_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
+      GameMode.RUUTUPILKKI,
+      GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -972,6 +1083,7 @@ const lakes = [
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
     ],
+    supportedNightModes: [],
     isNight: false,
   },
   {
@@ -996,6 +1108,12 @@ const lakes = [
       GameMode.VIISI_SUURINTA_KALAA,
       GameMode.RUUTUPILKKI,
       GameMode.RUUTUPILKKI_KAPPALEMAARA,
+    ],
+    supportedNightModes: [
+      GameMode.VAIN_MADE,
+      GameMode.VAIN_MADE_KAPPALEMAARA,
+      GameMode.KOLME_SUURINTA_KALAA,
+      GameMode.VIISI_SUURINTA_KALAA,
     ],
     isNight: true,
   },
