@@ -1,44 +1,35 @@
-import { Schema } from "mongoose";
-import { ParticipantSchema } from "./participant.js";
-import type { Participant } from "./participant.js";
+import { Schema, model } from "mongoose";
+import { ParticipantSchema } from "./participant";
+import type { Participant } from "../resources/types/participant";
+import { GameMode } from "../resources/types/gameSettings";
 
-export type TimeOfDay = "Morning" | "Afternoon" | "Evening" | "Night";
-export type Season = "Autumn" | "Winter" | "Spring";
-export type CompetitionType = "normal"; // TODO: Lisää kaikki muodot tähän
+export const timeOfDayValues = ["Morning", "Afternoon", "Evening", "Night"] as const;
+export type TimeOfDay = typeof timeOfDayValues[number];
+
+export const seasonValues = ["Autumn", "Winter", "Spring"] as const;
+export type Season = typeof seasonValues[number];
+
+export type CompetitionType = GameMode;
 
 export interface Competition {
-  _id?: any;
   lake: string;
-  timeOfDay?: TimeOfDay;
-  season?: Season;
+  timeOfDay: TimeOfDay;
+  season: Season;
   durationMinutes: number;
-  type?: CompetitionType;
+  type: CompetitionType;
   participants: Participant[];
 }
 
-export const CompetitionSchema = new Schema<Competition>({
-  lake: {
-    type: String,
-    required: true,
+export const CompetitionSchema = new Schema<Competition>(
+  {
+    lake: { type: String, required: true },
+    timeOfDay: { type: String, required: true, enum: timeOfDayValues },
+    season: { type: String, required: true, enum: seasonValues },
+    durationMinutes: { type: Number, required: true },
+    type: { type: String, required: true, enum: Object.values(GameMode) },
+    participants: { type: [ParticipantSchema], default: [] }
   },
-  timeOfDay: {
-    type: String,
-    required: true,
-  },
-  season: {
-    type: String,
-    required: true,
-  },
-  durationMinutes: {
-    type: Number,
-    required: true,
-  },
-  type: {
-    type: String,
-    required: true,
-  },
-  participants: {
-    type: [ParticipantSchema],
-    default: [],
-  },
-});
+  { timestamps: true }
+);
+
+export const CompetitionModel = model<Competition>("Competition", CompetitionSchema)
