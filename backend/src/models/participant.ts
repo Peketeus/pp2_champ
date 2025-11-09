@@ -10,11 +10,9 @@ export interface Participant {
   hasLargestFish?: boolean; // For a bonus point
 }
 
-export const ParticipantSchema = new Schema<Participant>(
-  {
-    userId: { type: Schema.Types.ObjectId, ref: "User", required: true },
-    score: { type: Number, required: true, default: 0 },
-    rank: { type: Number },
-    hasLargestFish: { type: Boolean, default: false },
-  }
-);
+export const ParticipantSchema = new Schema<Participant>({
+  userId: { type: Schema.Types.ObjectId, ref: "User", required: true },
+  score: { type: Number, required: true, default: 0 },
+  rank: { type: Number },
+  hasLargestFish: { type: Boolean, default: false },
+});
