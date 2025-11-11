@@ -1,14 +1,5 @@
 import { Schema, Types } from "mongoose";
-
-/**
- * Participant of the competition
- */
-export interface Participant {
-  userId?: Types.ObjectId;
-  score: number; // score = participants - rank (if hasLargestFish === true {+1 point})
-  rank?: number;
-  hasLargestFish?: boolean; // For a bonus point
-}
+import { Participant } from "../resources/types/participant"
 
 export const ParticipantSchema = new Schema<Participant>({
   userId: { type: Schema.Types.ObjectId, ref: "User", required: true },

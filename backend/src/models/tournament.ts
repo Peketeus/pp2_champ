@@ -27,8 +27,4 @@ const TournamentSchema = new Schema<ITournament>(
   { timestamps: true }
 );
 
-export const TournamentModel = model<ITournament>(
-  "Tournament",
-  TournamentSchema
-);
-export default TournamentModel;
+export const TournamentModel = model<ITournament>("Tournament", TournamentSchema);
